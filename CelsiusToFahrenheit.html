@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius To Fahrenheit</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <script>
+        let convertCtoF = prompt("Enter Celsius temp to convert to Fahrenheit: ");
+        console.log("User input is: "+convertCtoF);
+
+        let result; 
+        result=convertCtoF* 1.8+32; 
+        console.log(result);
+
+        alert(convertCtoF+ " Celsius degrees converted to Fahrenheit is " + result + " degrees.");
+    </script>
+
+    <div id="menuBox">
+        <p id="menuTitle">Menu Selection:</p>
+    <ul>
+        <li><a href="./index.html">Index Page</a></li>
+        <li><a href="./FahrenheitToCelsius.html">Fahrenheit To Celsius</a></li>
+        <li><a href="./KilogramsToPouds.html"> Kilograms To Pounds</a></li>
+        <li><a href="./PoundsToKilograms.html">Pounds To Kilograms</a></li>
+    </ul>
+    </div>
+
+    <div id="cToFTable">
+        <h1 id="cToFTitle">Converting Celsius To Fahrenheit</h1>
+
+        <p>To convert temperatures in degrees Fahrenheit to Celsius:</p>
+        <h2>multiply by 1.8 (or 9/5) and add 32</h2> 
+
+        <p>Example: (30°C x 1.8) + 32 = 86°F</p>
+
+        <P>Fahrenheit temperature scale is named for German physicist Daniel Gabriel Fahrenheit and is the measurement of temperature commonly used by the United States (and its associated territories) and by several nations in the Caribbean. On the Fahrenheit scale, water freezes at 32°F and boils at 212°F (at sea level). </p>
+        <p>The Celsius temperature scale—originally called centigrade and later renamed for Swedish astronomer Anders Celsius—is used almost everywhere else in the world. On the Celsius scale, water freezes at 0°C and boils at 100°C (at sea level).</p>
+    </div>
+</body>
+</html>
